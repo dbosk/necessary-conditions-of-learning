@@ -1,3 +1,9 @@
+ltxobj/
+bibedu.bib
+bibedu.sty
+notes.pdf
+slides.pdf
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof

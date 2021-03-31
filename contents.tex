@@ -1,0 +1,268 @@
+\mode*
+
+\section{Introduction}
+
+\subsection{The book and author}
+
+\begin{frame}
+  \begin{figure}
+    \includegraphics[height=0.8\textheight]{fig/book.jpg}
+    \caption{Front cover of Necessary Conditions of Learning.}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \begin{figure}
+    \includegraphics[width=\columnwidth]{fig/marton-gscholar.png}
+    \caption{Marton's profile on Google Scholar, showing his high citation 
+    counts.}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \begin{figure}
+    \includegraphics[width=\columnwidth]{fig/necessary-conditions-citations.png}
+    \caption{Citations for the book.}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \begin{block}{Main ideas}
+    \begin{itemize}
+      \item Phenomenography~\cite{Phenomenography}
+      \item Variation theory~\cite{VariationTheory}
+      \item Learning studies~\cite{LearningStudy}
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\subsection{Phenomenography}
+
+\begin{frame}
+  \blockcquote{NecessaryConditionsOfLearning}{%
+    We tacitly assume that what we see is exactly what is there to be seen and 
+    that others see things in the same way we do. It is hard to realize that we 
+    have actually learned to see the world in certain ways and that others may 
+    have learned to see it differently.
+  }
+\end{frame}
+
+\begin{frame}
+  \begin{block}<1-2>{Phenomenography~\cite{Phenomenography}}
+    \begin{itemize}
+      \item Reality is experienced.
+      \item People interpret significant aspects of reality.
+    \end{itemize}
+    \pause
+    \begin{description}
+      \item[First-order perspective] describes various aspects of the world.
+      \item[Second-order perspective] describes people's experiences of various 
+        aspects of the world --- phenomenography.
+    \end{description}
+  \end{block}
+\end{frame}
+
+\subsection{Variation theory}
+
+\begin{frame}
+  \begin{block}{Variation theory~\cite{VariationTheory}}
+    \vspace{-0.5em}
+    \[
+      \text{learning}
+      \quad\leftarrow\quad
+      \text{discernment}
+      \quad\leftarrow\quad
+      \text{variation}
+    \]
+  \end{block}
+
+  \pause
+
+  \begin{remark}
+    \begin{itemize}
+      \item There must be a pattern of variation to experience.
+      \item \emph{This pattern must be experienced}.
+    \end{itemize}
+  \end{remark}
+\end{frame}
+
+\begin{frame}
+  \begin{block}{Patterns of variation}
+    \vspace{-0.5em}
+    \[
+      \text{contrast}
+      \quad\rightarrow\quad
+      \text{generalization}
+      \quad\rightarrow\quad
+      \text{fusion}
+    \]
+  \end{block}
+
+  \begin{figure}
+    \begin{subfigure}{0.3\columnwidth}
+      \centering
+      \begin{tikzpicture}
+        \fill[blue] (-0.75, 0) circle (0.5);
+        \fill[green] (0.75, 0) circle (0.5);
+      \end{tikzpicture}
+      \caption{Contrast}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.3\columnwidth}
+      \centering
+      \begin{tikzpicture}
+        \fill[blue] (-0.75, 0) circle (0.5);
+        \fill[blue] (0.5, -0.5) rectangle (1.5, 0.5);
+      \end{tikzpicture}
+      \caption{Generalization}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.3\columnwidth}
+      \centering
+      \begin{tikzpicture}
+        \fill[green] (-0.75, 0) circle (0.5);
+        \fill[orange] (0.5, -0.5) rectangle (1.5, 0.5);
+      \end{tikzpicture}
+      \caption{Fusion}
+    \end{subfigure}
+    \caption{%
+      Illustrating the patterns of variation for aspects color and shape.
+    }
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \begin{figure}
+    \semitransp{%
+    \begin{subfigure}{0.3\columnwidth}
+      \centering
+      \begin{tikzpicture}
+        \fill[blue] (-0.75, 0) circle (0.5);
+        \fill[green] (0.75, 0) circle (0.5);
+      \end{tikzpicture}
+      \caption{Contrast}
+    \end{subfigure}
+  }
+    \hfill
+    \begin{subfigure}{0.3\columnwidth}
+      \centering
+      \begin{tikzpicture}
+        \fill[blue] (-0.75, 0) circle (0.5);
+        \fill[blue] (0.5, -0.5) rectangle (1.5, 0.5);
+      \end{tikzpicture}
+      \caption{Generalization}
+    \end{subfigure}
+    \hfill
+    \semitransp{%
+    \begin{subfigure}{0.3\columnwidth}
+      \centering
+      \begin{tikzpicture}
+        \fill[green] (-0.75, 0) circle (0.5);
+        \fill[orange] (0.5, -0.5) rectangle (1.5, 0.5);
+      \end{tikzpicture}
+      \caption{Fusion}
+    \end{subfigure}
+    \caption{%
+      Illustrating the patterns of variation for aspects color and shape.
+    }
+  }
+  \end{figure}
+
+  \begin{remark}
+    \begin{itemize}
+      \item We tend to focus on generalization/induction.
+      \item \enquote{Good theses from previous years.}
+      \item \enquote{One example of linear function, another example of linear 
+        function.}
+    \end{itemize}
+  \end{remark}
+\end{frame}
+
+\subsection{Learning study}
+
+\begin{frame}
+  \begin{block}{Learning study~\cite{LearningStudy}}
+    \begin{itemize}
+      \item Design-Based Research + Variation Theory
+      \item Extends the Japanese concept Lesson Study.
+    \end{itemize}
+    \pause
+    \begin{enumerate}
+      \item \label{design} (Re-)Design teaching material/plan using variation 
+        theory.
+      \item Perform teaching.
+      \item Analyze teaching performance and outcomes.
+      \item Go to \ref{design}.
+    \end{enumerate}
+  \end{block}
+
+  \pause
+
+  \begin{remark}
+    \begin{itemize}
+      \item Teacher teams, teach the same thing to different classes.
+      \item Yields iterations.
+    \end{itemize}
+  \end{remark}
+\end{frame}
+
+\subsection{Disposition}
+
+\begin{frame}
+  \begin{enumerate}
+    \item What makes humans human?
+    \item What is to be learned?
+    \item Sameness and difference in learning
+    \item What does the world look like to others?
+    \item The art of learning
+    \item Making learning possible
+    \item Learning to help others to learn
+  \end{enumerate}
+\end{frame}
+
+\begin{frame}
+  \begin{block}{Ch 1 What makes humans human?}
+    \begin{itemize}
+      \item What is pedagogy, how does it relate to learning.
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \begin{block}{Ch 2 What is to be learned?}
+    \begin{itemize}
+      \item What is an intended learning outcome?
+      \item What should it be?
+      \item It depends on the learner: \emph{critical aspects, critical 
+        features}.
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \begin{block}{Ch 3 Sameness and difference in learning}
+    \begin{itemize}
+      \item The problem with direct reference.
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \begin{block}{Ch 4 What does the world look like to others?}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \begin{block}{Ch 5 The art of learning}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \begin{block}{Ch 6 Making learning possible}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \begin{block}{Ch 7 Learning to help others to learn}
+  \end{block}
+\end{frame}
