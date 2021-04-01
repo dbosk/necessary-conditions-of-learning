@@ -20,7 +20,7 @@ clean:
 	${RM} notes.pdf slides.pdf
 
 
-INCLUDE_MAKEFILES=./makefiles
+INCLUDE_MAKEFILES=../makefiles
 include ${INCLUDE_MAKEFILES}/tex.mk
-INCLUDE_BIBEDU=./bibedu
+INCLUDE_BIBEDU=../bibedu
 include ${INCLUDE_BIBEDU}/bibedu.mk
