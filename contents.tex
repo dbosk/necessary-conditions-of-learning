@@ -240,6 +240,74 @@
 \end{frame}
 
 \begin{frame}
+  \begin{figure}
+    \begin{subfigure}{0.3\columnwidth}
+      \centering
+      \begin{tikzpicture}
+        \fill[blue] (-0.75, 0) circle (0.5);
+        \fill[green] (0.75, 0) circle (0.5);
+      \end{tikzpicture}
+      \caption{Contrast}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.3\columnwidth}
+      \centering
+      \begin{tikzpicture}
+        \fill[blue] (-0.75, 0) circle (0.5);
+        \fill[blue] (0.5, -0.5) rectangle (1.5, 0.5);
+      \end{tikzpicture}
+      \caption{Generalization}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.3\columnwidth}
+      \centering
+      \begin{tikzpicture}
+        \fill[orange] (-0.75, 0) circle (0.5);
+        \fill[purple] (0.5, -0.5) rectangle (1.5, 0.5);
+      \end{tikzpicture}
+      \caption{Fusion}
+    \end{subfigure}
+    \caption{%
+      Illustrating the patterns of variation for aspects color and shape.
+    }
+  \end{figure}
+
+  \begin{onlyenv}<1>
+    \begin{example}
+      \begin{itemize}
+        \item Critical aspect: colour.
+        \item Critical feature: blue.
+        \item Non-critical feature: green.
+        \item Non-critical aspect: shape.
+        \item Non-critical features: circle, square.
+      \end{itemize}
+    \end{example}
+  \end{onlyenv}
+  \begin{onlyenv}<2>
+    \begin{remark}
+      \begin{itemize}
+        \item There are other aspects too, \emph{unintentionally}.
+        \item Another aspect in this figure is order: the circle is always 
+          \enquote{first} (to the right).
+      \end{itemize}
+    \end{remark}
+  \end{onlyenv}
+\end{frame}
+
+\begin{frame}
+  \begin{figure}
+    \includegraphics[height=0.5\textheight]{fig/maja-writing.png}
+    \caption{My daughter's writing.}
+  \end{figure}
+  \begin{example}
+    \begin{itemize}
+      \item Obviously my daughter knows some aspect(s) of writing.
+      \item Just not all that are needed.
+    \end{itemize}
+  \end{example}
+\end{frame}
+
+\begin{frame}
   \begin{block}{Ch 3 Sameness and difference in learning}
     \begin{itemize}
       \item The problem with direct reference.
