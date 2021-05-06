@@ -402,40 +402,42 @@
 \end{frame}
 
 \begin{frame}
-  \begin{onlyenv}<1-2>
+  \begin{onlyenv}
     \begin{remark}[{\cite[p.~1]{RigorousMathematicalThinking}}]
       \begin{itemize}
         \item \enquote{There are 26 sheep and 10 goats on a ship.
           How old is the ship's captain?}
         \item This and similar questions given to primary school students in a 
           number of European countries.
-        \item \enquote{\emph{More than 60\% of students attempted to solve the 
-            problem by combining the given numbers}} \parentext{citing 
-          \cite{Verschaffel1999}, my emphasis}.
+        \item<+> \enquote{\emph{More than 60\% of students attempted to solve 
+          the problem by combining the given numbers}} \parentext{citing 
+        \cite{Verschaffel1999}, my emphasis}.
       \end{itemize}
     \end{remark}
   \end{onlyenv}
+\end{frame}
 
-  \begin{example}<2-3>[Newton's first law; Johansson, Marton, Svensson 1985]
+\begin{frame}
+  \begin{example}[Newton's first law; Johansson, Marton, Svensson 1985]
     \textcquote[p.~91]{NecessaryConditionsOfLearning}{%
       A car is driven at a high constant speed on a motorway.
       What forces act on the car?
     }
   \end{example}
 
-  \begin{onlyenv}<3>
-    \begin{remark}
-      \begin{itemize}
-        \item Relates back to the \enquote{Teacher's Paradox} (Ch 1).
-        \item \textcquote[p.~13]{NecessaryConditionsOfLearning}{%
-            \textins{T}he more clearly the teacher tells the students what is 
-            to be done, the less chance the students get to make the necessary 
-            distinctions (for instance, between what is critical and what is 
-            not).%
-          }
-      \end{itemize}
-    \end{remark}
-  \end{onlyenv}
+  \pause
+
+  \begin{remark}
+    \begin{itemize}
+      \item Relates back to the \enquote{Teacher's Paradox} (Ch 1).
+      \item \textcquote[p.~13]{NecessaryConditionsOfLearning}{%
+          \textins{T}he more clearly the teacher tells the students what is 
+          to be done, the less chance the students get to make the necessary 
+          distinctions (for instance, between what is critical and what is 
+          not).%
+        }
+    \end{itemize}
+  \end{remark}
 \end{frame}
 
 
@@ -568,8 +570,132 @@
       \item How can we use this theory for teaching?
       \item Covers differences between cultures.
       \item Covers many studies on teaching.
+      \item Direct teaching vs learning by discovery
     \end{itemize}
   \end{block}
+\end{frame}
+
+\begin{frame}
+  \begin{example}[Teaching in US and Japan,
+    {\cite[pp.~181--183]{NecessaryConditionsOfLearning}}]
+    \begin{description}
+      \item<1,3->[US classrom] Teacher introduces method for solving a type of 
+        problem.
+        After demonstration, students solve problems of this kind.
+
+      \item<2,3->[Japanese classroom] Teacher introduces complex problem.
+        Students have a go at it.
+        Discuss approaches in full class.
+        \alert<5>{\onslide<5>{Then practice.}}
+    \end{description}
+  \end{example}
+
+  \begin{uncoverenv}<3->
+    \begin{table}
+      \caption{Comparison of patterns of variation.}
+      \begin{tabular}{llll}
+        \toprule
+        \multicolumn{2}{c}{American} &
+        \multicolumn{2}{c}{Japanese} \\
+        \midrule
+        method & \alert<4>{problem} & \alert<4>{method} & \alert<5>{problem} \\
+        invariant & \alert<4>{varies} &
+        \alert<4>{\only<1-4>{varies}\only<5>{invariant}} &
+        \alert<5>{\only<5>{varies}\only<1-4>{invariant}} \\
+        \bottomrule
+      \end{tabular}
+    \end{table}
+  \end{uncoverenv}
+\end{frame}
+
+\begin{frame}
+  \begin{example}[{\enquote{One thing at a time}},
+    {\cite[pp.~166--168]{NecessaryConditionsOfLearning}}]
+    \begin{itemize}
+      \item Medical students learning about ECGs.
+      \item Three types of heart failures.
+    \end{itemize}
+    \begin{description}
+      \item[Group A] Lecture (two cases/category), tutorial (12 cases,
+        \alert<2->{groups of 4, one failure type at a time})
+      \item[Group B] Lecture (two cases/category), tutorial (12 cases,
+        \alert<2->{all at once})
+    \end{description}
+    \begin{itemize}
+      \item<3> Group B did \emph{more than 50\% better} than Group A.
+    \end{itemize}
+  \end{example}
+\end{frame}
+
+\begin{frame}
+  \begin{remark}
+    \begin{itemize}
+      \item One thing at a time: \emph{dimension}
+      \item Things together: \emph{features} in the dimension
+    \end{itemize}
+  \end{remark}
+
+  \pause
+
+  \begin{remark}
+    \begin{enumerate}
+      \item How cases are organized (ECG outputs)
+      \item Shifting focus of attension (sloth video)
+      \item Differences as change (dynamic visualization, deriving a formula)
+    \end{enumerate}
+  \end{remark}
+\end{frame}
+
+\begin{frame}
+  \begin{example}[Learn by trying or by being told?
+    {\cite[pp.~214--221]{NecessaryConditionsOfLearning}}]
+    \begin{itemize}
+      \item \Textcite{Szekely1950} studied the problem in 1950.
+    \end{itemize}
+    \begin{enumerate}
+      \item<1,3> Presented a puzzling phenomena (Problem A) to a group.
+      \item<1,3> Presented a text explaining the phenomena afterwards.
+    \end{enumerate}
+    \begin{enumerate}
+      \item<2,3> Presented a text explaining the phenomena.
+      \item<2,3> Presented the puzzling phenomena afterwards.
+    \end{enumerate}
+    \begin{itemize}
+      \item<4> Called them back a week later with related Problem B.
+      \item<4> The order for Problem A had significant impact on solving 
+        Problem B.
+    \end{itemize}
+  \end{example}
+\end{frame}
+
+\begin{frame}
+  \begin{remark}[Reproduced]
+    \begin{itemize}
+      \item Confirmed by later studies as well.
+      \item \Textcite{BransfordSchwartz1999} studied effect on future learning.
+      \item Students learn more easily from being told if they tried first.
+    \end{itemize}
+  \end{remark}
+
+  \pause
+
+  \begin{remark}
+    \begin{itemize}
+      \item \emph{Even if the time spent is the same!}
+    \end{itemize}
+  \end{remark}
+\end{frame}
+
+\begin{frame}
+  \begin{example}[Direct teaching vs learning by discovery,
+    {\cite[p.~214]{NecessaryConditionsOfLearning}}]
+    \begin{itemize}
+      \item \textcquote[p.~214]{NecessaryConditionsOfLearning}{%
+          \textins{Comparisons} are inevitably inconclusive because they are 
+          comparing two things that are both needed for successful learning%
+        }.
+    \end{itemize}
+  \end{example}
 \end{frame}
 
 \begin{frame}
