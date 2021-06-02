@@ -1,3 +1,7 @@
+---
+title: An overview of the book
+permalink: overview
+---
 The recording of the lecture can be found on:
 
   - [YouTube][yt]
