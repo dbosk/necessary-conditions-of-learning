@@ -9,6 +9,9 @@
   {\pgfsetfillopacity{0.3}#1}%
   \pgfsetfillopacity{1}%
 }
+\newcounter{saveenumi}
+\newcommand{\saveenumi}{\setcounter{saveenumi}{\value{enumi}}}
+\newcommand{\resumeenumi}{\setcounter{enumi}{\value{saveenumi}}}
 
 \usepackage[all]{foreign}
 \renewcommand{\foreignfullfont}{}

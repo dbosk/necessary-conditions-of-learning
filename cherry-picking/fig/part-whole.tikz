@@ -1,0 +1,39 @@
+\begin{tikzpicture}
+  \only<1>{%
+    \fill[red] (0, 0) rectangle (-1, 1);
+    \fill[blue] (0, 0) rectangle (1, 1);
+    \fill[green] (0, 0) rectangle (1, -1);
+    \fill[orange] (0, 0) rectangle (-1, -1);
+  }
+  \only<2>{%
+    \fill[red] (-0.5, 0.5) rectangle (-1.5, 1.5);
+    \fill[blue] (0.5, 0.5) rectangle (1.5, 1.5);
+    \fill[green] (0.5, -0.5) rectangle (1.5, -1.5);
+    \fill[orange] (-0.5, -0.5) rectangle (-1.5, -1.5);
+  }
+%  \only<3>{%
+%    \fill[red] (-0.5, 0.5) rectangle (-1.5, 1.5);
+%    \fill[blue!20!white] (0.5, 0.5) rectangle (1.5, 1.5);
+%    \fill[green!20!white] (0.5, -0.5) rectangle (1.5, -1.5);
+%    \fill[orange!20!white] (-0.5, -0.5) rectangle (-1.5, -1.5);
+%  }
+  \only<3>{%
+    \fill[pink] (-0.5, 0.5) rectangle (-1.5, 1.5);
+    %\fill[pink] (-1.5, 1.5) rectangle (-2.5, 0.5);
+    \fill[blue] (0.5, 0.5) rectangle (1.5, 1.5);
+    \fill[green] (0.5, -0.5) rectangle (1.5, -1.5);
+    \fill[orange] (-0.5, -0.5) rectangle (-1.5, -1.5);
+  }
+  \only<4>{%
+    \fill[pink] (-0.5, 0.5) rectangle (-1.5, 1.5);
+    \fill[purple] (0.5, 0.5) rectangle (1.5, 1.5);
+    \fill[brown] (0.5, -0.5) rectangle (1.5, -1.5);
+    \fill[yellow] (-0.5, -0.5) rectangle (-1.5, -1.5);
+  }
+  \only<5>{%
+    \fill[magenta] (-0, 0) rectangle (-1.0, 1.0);
+    \fill[violet] (0, 0) rectangle (1.0, 1.0);
+    \fill[olive] (0, -0) rectangle (1.0, -1.0);
+    \fill[lime] (-0, -0) rectangle (-1.0, -1.0);
+  }
+\end{tikzpicture}
