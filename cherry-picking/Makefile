@@ -7,11 +7,11 @@ SRC+=		preamble.tex
 SRC+=		abstract.tex contents.tex
 
 FIGS+=		fig/part-whole.tikz
-FIGS+=		contrast-color.tikz
-FIGS+=		generalization-color.tikz
-FIGS+=		fusion-color.tikz
-FIGS+=		maja-writing.jpg
-FIGS+=		part-whole.tikz
+FIGS+=		fig/contrast-color.tikz
+FIGS+=		fig/generalization-color.tikz
+FIGS+=		fig/fusion-color.tikz
+FIGS+=		fig/maja-writing.jpg
+FIGS+=		fig/part-whole.tikz
 
 DEPENDS+=	bibedu.bib bibedu.sty ${FIGS}
 
