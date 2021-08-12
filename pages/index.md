@@ -12,7 +12,7 @@ starting point for a "flipped-colloquium" on learning theory.
 ## Contents
 
 {% for module in site.data.navigation.modules %}
-- [{{ module[1].title }}]({{ module[1].path | relative_url }}) {% if module[1].path == "/" %}(denna sida){% endif %}
+  - [{{ module[1].title }}]({{ module[1].path | relative_url }}) {% if module[1].p  ath == "/" %}(this page){% endif %}
 {% endfor %}
 
 
