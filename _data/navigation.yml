@@ -1,0 +1,14 @@
+modules:
+  index:
+    title: Contents
+    path: /
+    next: overview
+  overview:
+    title: Overview
+    path: /modules/overview/README
+    prev: index
+    next: cherry-picking
+  cherry-picking:
+    title: Cherry picking my favourite examples
+    path: modules/cherry-picking/README
+    prev: overview
