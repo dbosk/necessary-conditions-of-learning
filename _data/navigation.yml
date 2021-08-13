@@ -10,5 +10,5 @@ modules:
     next: cherry-picking
   cherry-picking:
     title: Cherry picking my favourite examples
-    path: modules/cherry-picking/README
+    path: modules/cherry-picking/index
     prev: overview
