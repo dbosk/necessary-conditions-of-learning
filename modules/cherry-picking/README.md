@@ -1,3 +1,7 @@
+---
+title: Cherry-picking from the book
+permalink: /modules/cherry-picking
+---
 # Cherry picking
 
 I collected some of my favourite parts (examples, studies, etc.) from each 
