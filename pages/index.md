@@ -1,5 +1,5 @@
 ---
-title: Reflections on Necessary Conditions of Learning
+title: Necessary Conditions of Learning
 permalink: /
 ---
 # Reflections on Necessary Conditions of Learning
