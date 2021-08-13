@@ -5,10 +5,10 @@ modules:
     next: overview
   overview:
     title: Overview
-    path: /modules/overview
+    path: /modules/overview/index
     prev: index
     next: cherry-picking
   cherry-picking:
     title: Cherry picking my favourite examples
-    path: modules/cherry-picking
+    path: modules/cherry-picking/index
     prev: overview

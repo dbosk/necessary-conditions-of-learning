@@ -1,6 +1,6 @@
 ---
 title: An overview of the book
-permalink: /modules/overview
+permalink: /modules/overview/index
 ---
 The recording of the lecture can be found on:
 

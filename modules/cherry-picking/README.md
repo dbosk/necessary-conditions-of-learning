@@ -1,6 +1,6 @@
 ---
 title: Cherry-picking from the book
-permalink: /modules/cherry-picking
+permalink: /modules/cherry-picking/index
 ---
 # Cherry picking
 
