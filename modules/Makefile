@@ -4,5 +4,5 @@ SUBDIR+=	ch1
 SUBDIR+=	ch2
 SUBDIR+=	ch3
 
-INCLUDE_MAKEFILES=./makefiles
+INCLUDE_MAKEFILES=../makefiles
 include ${INCLUDE_MAKEFILES}/subdir.mk
