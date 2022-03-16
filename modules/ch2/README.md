@@ -1,5 +1,5 @@
 ---
-title: Ch 2: What is to be learned?
+title: "Ch 2: What is to be learned?"
 ---
 # {{ page.title }}
 

@@ -1,5 +1,5 @@
 ---
-title: Ch 1: What makes humans human?
+title: "Ch 1: What makes humans human?"
 ---
 # {{ page.title }}
 
