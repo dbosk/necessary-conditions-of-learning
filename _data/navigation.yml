@@ -9,12 +9,12 @@ modules:
     prev: index
     next: ch1
   ch1:
-    title: Ch 1: What makes humans human?
+    title: "Ch 1: What makes humans human?"
     path: /modules/ch1/README
     prev: overview
     next: ch2
   ch2:
-    title: Ch 2: What is to be learned?
+    title: "Ch 2: What is to be learned?"
     path: /modules/ch2/README
     prev: ch1
     next: cherry-picking
