@@ -17,8 +17,33 @@ modules:
     title: "Ch 2: What is to be learned?"
     path: /modules/ch2/README
     prev: ch1
+    next: ch3
+  ch3:
+    title: "Ch 3: Sameness and difference in learning"
+    path: /modules/ch3/README
+    prev: ch2
+    next: ch4
+  ch4:
+    title: "Ch 4: What does the world look like to others?"
+    path: /modules/ch4/README
+    prev: ch3
+    next: ch5
+  ch5:
+    title: "Ch 5: The art of learning"
+    path: /modules/ch5/README
+    prev: ch4
+    next: ch5
+  ch6:
+    title: "Ch 6: Making learning possible"
+    path: /modules/ch6/README
+    prev: ch5
+    next: ch7
+  ch7:
+    title: "Ch 7: Learnig to help others to learn"
+    path: /modules/ch7/README
+    prev: ch6
     next: cherry-picking
   cherry-picking:
     title: Cherry picking
     path: modules/cherry-picking/README
-    prev: overview
+    prev: ch7
