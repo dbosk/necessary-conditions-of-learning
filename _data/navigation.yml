@@ -32,7 +32,7 @@ modules:
     title: "Ch 5: The art of learning"
     path: /modules/ch5/README
     prev: ch4
-    next: ch5
+    next: ch6
   ch6:
     title: "Ch 6: Making learning possible"
     path: /modules/ch6/README
