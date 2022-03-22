@@ -3,7 +3,7 @@ title: "Ch 3: Sameness and difference in learning"
 ---
 # {{ page.title }}
 
-- [Video introduction "{{ page.title }}"][ch3-video] (TBA)
+- [Video introduction "{{ page.title }}"] (TBA)
 - [The reading assignment "{{ page.title }}"][ch3-reading]
 - [Comprehension assignment: Analyze Ch 2 using the theory of Ch 3][ch3-compr]
 
