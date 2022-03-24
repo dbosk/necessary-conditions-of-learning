@@ -6,7 +6,7 @@ LATEXFLAGS+=	-shell-escape
 SRC+=		preamble.tex
 SRC+=		abstract.tex contents.tex
 
-DEPENDS+=	bibedu.bib bibedu.sty
+DEPENDS+=	bibedu.bib bibedu.sty didactic.sty
 
 notes.pdf: notes.tex
 notes.pdf: ${SRC} ${DEPENDS}
@@ -24,3 +24,5 @@ INCLUDE_MAKEFILES=../../makefiles
 include ${INCLUDE_MAKEFILES}/tex.mk
 INCLUDE_BIBEDU=../../bibedu
 include ${INCLUDE_BIBEDU}/bibedu.mk
+INCLUDE_DIDACTIC=../../didactic
+include ${INCLUDE_DIDACTIC}/didactic.mk

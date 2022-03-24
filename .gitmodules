@@ -4,3 +4,6 @@
 [submodule "bibedu"]
 	path = bibedu
 	url = https://github.com/dbosk/bibedu.git
+[submodule "didactic"]
+	path = didactic
+	url = https://github.com/dbosk/beamer-didactic.git

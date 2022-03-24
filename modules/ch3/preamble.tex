@@ -1,6 +1,10 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[british]{babel}
+
+\usepackage[natbib,style=alphabetic,maxbibnames=99]{biblatex}
+\addbibresource{bibedu.bib}
+
 \usepackage{booktabs}
 \usepackage{tikz}
 \usepackage{tikzscale}
@@ -20,9 +24,6 @@
 \usepackage[strict]{csquotes}
 \usepackage[single]{acro}
 
-\usepackage[natbib,style=alphabetic,maxbibnames=99]{biblatex}
-\addbibresource{bibedu.bib}
-
 \usepackage{subcaption}
 
 \usepackage[noend]{algpseudocode}
@@ -30,8 +31,12 @@
 
 \let\email\texttt
 
-\usepackage[outputdir=ltxobj]{minted}
+\usepackage{minted}
 \setminted{autogobble}
+
+\usepackage{pythontex}
+\setpythontexoutputdir{.}
+\setpythontexworkingdir{..}
 
 \usepackage{amsmath}
 \usepackage{amssymb}
@@ -44,3 +49,6 @@
 \usepackage[binary-units]{siunitx}
 
 \usepackage[capitalize]{cleveref}
+
+\usepackage{bibedu}
+\usepackage{didactic}
