@@ -34,61 +34,34 @@
   \end{block}
 \end{frame}
 
-\section{Some experiments}
-
-\begin{frame}
-  \begin{example}[Physics]
-    \begin{enumerate}
-      \item Students were introduced to modern physics.
-      \item Students were introduced to modern physics, contrasted with what we 
-        believed before.
-    \end{enumerate}
-  \end{example}
-\end{frame}
-
-\begin{frame}
-  \begin{example}[Using the known to prepare for unknown]
-    \begin{itemize}
-      \item Kids were to hit a target by throwing a shuttlecock (badminton 
-        \enquote{ball}).
-    \end{itemize}
-    \begin{enumerate}
-      \item Practicing from the same position as testing.
-      \item Practicing from several positions, except the testing position.
-    \end{enumerate}
-  \end{example}
-\end{frame}
-
 \section{Variation theory}
 
 \subsection{An experiment}
 
-\begin{frame}
-  \begin{center}
-    \huge
-    alpha
-  \end{center}
-\end{frame}
+\begin{frame}\label<2>{vtind}
+  \input{collar-generalization.tex}
 
-\mode<all>{\input{collar-generalization.tex}}
+  \pause
 
-\begin{frame}
-  \begin{question}
+  \begin{exercise}
     \begin{enumerate}
       \item What does \enquote{alpha} mean?
-      \item How certain are you?
     \end{enumerate}
-  \end{question}
+  \end{exercise}
 \end{frame}
 
-\mode<all>{\input{collar-contrast.tex}}
-\mode<all>{\input{collar-generalization.tex}}
+\begin{frame}\label{vtcon}
+  \input{collar-contrast.tex}
+\end{frame}
+
+\begin{frame}\label{vtgen}
+  \input{collar-generalization.tex}
+\end{frame}
 
 \begin{frame}
   \begin{question}[Again]
     \begin{enumerate}
       \item What does \enquote{alpha} mean?
-      \item How certain are you?
     \end{enumerate}
   \end{question}
 \end{frame}
@@ -102,9 +75,14 @@
   \end{remark}
 \end{frame}
 
+\begin{frame}
+  \input{collar-contrast.tex}
+  \input{collar-generalization.tex}
+\end{frame}
+
 \subsection{Patterns of variation}
 
-\begin{frame}
+\begin{frame}\label<1>{vtsummary}
   \begin{figure}
     \begin{subfigure}{0.3\columnwidth}
       \centering
@@ -164,7 +142,7 @@
 
 \subsection{Scope of identifiers in Python again}
 
-\begin{frame}[fragile]
+\begin{frame}[fragile]\label{vtprogid}
   \begin{example}[Situation from Ch 2]
     \lstexample{examples/greet.py}
   \end{example}
@@ -174,7 +152,7 @@
   \end{block}
 \end{frame}
 
-\begin{frame}[fragile]
+\begin{frame}[fragile]\label{vtprogidcon}
   \begin{example}[Contrast identifiers in different scopes]
     \lstexample[highlightlines=5-7]{examples/scope-contrast.py}
   \end{example}
@@ -196,7 +174,7 @@
 
 \subsection{Order or arguments in Python again}
 
-\begin{frame}[fragile]
+\begin{frame}[fragile]\label{vtprogord}
   \begin{example}[From Ch 2 again]
     \lstexample{examples/greet.py}
   \end{example}
@@ -206,7 +184,7 @@
   \end{block}
 \end{frame}
 
-\begin{frame}[fragile]
+\begin{frame}[fragile]\label{vtprogordcon}
   \begin{example}[Constrast argument order]
     \lstexample[highlightlines={1,7}]{examples/order-contrast.py}
   \end{example}
@@ -216,3 +194,163 @@
   \end{block}
 \end{frame}
 
+
+\section{Some experiments}
+
+\begin{frame}\label{vtphysics}
+  \begin{example}[Physics {\cite[p.~58]{NecessaryConditionsOfLearning}}]
+    \begin{enumerate}
+      \item Students were introduced to modern physics.
+      \item Students were introduced to modern physics, contrasted with what we 
+        believed before.
+    \end{enumerate}
+  \end{example}
+\end{frame}
+
+\begin{frame}\label{vtunknown}
+  \begin{example}[Using the known to prepare for unknown 
+    {\cite[p.~68]{NecessaryConditionsOfLearning}}]
+    \begin{itemize}
+      \item Kids were to hit a target by throwing a shuttlecock (badminton 
+        \enquote{ball}).
+    \end{itemize}
+    \begin{enumerate}
+      \item Practicing from the same position as testing.
+      \item Practicing from several positions, except the testing position.
+    \end{enumerate}
+  \end{example}
+\end{frame}
+
+\section{Grouping}
+
+\begin{frame}\label<1>{vtgrouping}
+  \begin{example}[Grouping on tones or sound 
+    {\cite[p.~63]{NecessaryConditionsOfLearning}}]
+    \begin{onlyenv}<2>
+      \begin{itemize}
+        \item Grouping can be done by similarity (induction) or differences 
+          (contrast).
+        \item Experiment teaching tonal language (\eg Cantonese) to speakers of 
+          non-tonal languages (\eg Swedish).
+      \end{itemize}
+    \end{onlyenv}
+  \end{example}
+
+  \begin{figure}
+    \only<1>{\includegraphics[height=0.8\textheight]{fig/group-tone-sound.png}}
+    \only<2>{\includegraphics[height=0.5\textheight]{fig/group-tone-sound.png}}
+  \end{figure}
+\end{frame}
+
+\subsection{Grouping in programming}
+
+\begin{frame}\label<2>{vtgroupprog}
+  \begin{example}[Iterations]
+    \begin{itemize}
+      \item We usually teach \mintinline{python}{for}, 
+        \mintinline{python}{while} and recursion separately.
+      \item \mintinline{python}{for}: here are examples (problems) suitable for 
+        the \mintinline{python}{for} construction.
+      \item \mintinline{python}{while}: here are examples (problems) suitable 
+        while the \mintinline{python}{while} construction.
+      \item recursion: we save this for the advanced course.
+    \end{itemize}
+  \end{example}
+
+  \pause
+
+  \begin{remark}
+    \begin{itemize}
+      \item Arguably, we should treat these \emph{three} at the same time.
+      \item We must provide contrast between the problems suitable for the 
+        different types of iterations.
+      \item We'll return to this.
+    \end{itemize}
+  \end{remark}
+\end{frame}
+
+\section{Reflection}
+
+\begin{frame}
+  \begin{question}
+    \begin{itemize}
+      \item So how did we do in these slides?
+    \end{itemize}
+  \end{question}
+\end{frame}
+
+\begin{frame}
+  \begin{figure}
+    \begin{subfigure}{0.3\columnwidth}
+      \includeslide[width=\columnwidth]{vtind}
+      \caption{Induction}
+    \end{subfigure}
+    \begin{subfigure}{0.6\columnwidth}
+      \includeslide[width=0.5\columnwidth]{vtcon}
+      \hfill
+      \includeslide[width=0.5\columnwidth]{vtgen}
+      \caption{Contrast followed by generalization}
+    \end{subfigure}
+    \caption{Induction \emph{contrasted} to contrast-generalization.}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \begin{figure}
+    \begin{subfigure}{0.3\columnwidth}
+      \includeslide[width=\columnwidth]{vtsummary}
+      \caption{Summary}
+    \end{subfigure}
+    \begin{subfigure}{0.6\columnwidth}
+      \includeslide[width=0.5\columnwidth]{vtprogid}
+      \includeslide[width=0.5\columnwidth]{vtprogidcon}
+      \caption{Contrast identifiers}
+    \end{subfigure}
+    \begin{subfigure}{0.6\columnwidth}
+      \includeslide[width=0.5\columnwidth]{vtprogord}
+      \includeslide[width=0.5\columnwidth]{vtprogordcon}
+      \caption{Contrast order}
+    \end{subfigure}
+    \caption{\emph{Generalizing} the contrast-generalization pattern.}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \begin{figure}
+    \begin{subfigure}{0.3\columnwidth}
+      \includeslide[width=\columnwidth]{vtphysics}
+      \caption{Physics}
+    \end{subfigure}
+    \begin{subfigure}{0.3\columnwidth}
+      \includeslide[width=\columnwidth]{vtunknown}
+      \caption{Known to unknown}
+    \end{subfigure}
+    \caption{\emph{Generalizing} further, learner generates patterns.}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \begin{figure}
+    \begin{subfigure}{0.3\columnwidth}
+      \includeslide[width=\columnwidth]{vtprogidcon}
+      \caption{Identifier}
+    \end{subfigure}
+    \begin{subfigure}{0.3\columnwidth}
+      \includeslide[width=\columnwidth]{vtprogordcon}
+      \caption{Order}
+    \end{subfigure}
+    \newline
+    \begin{subfigure}{0.3\columnwidth}
+      \includeslide[width=\columnwidth]{vtgrouping}
+      \caption{Tones--sounds}
+    \end{subfigure}
+    \begin{subfigure}{0.3\columnwidth}
+      \includeslide[width=\columnwidth]{vtgroupprog}
+      \caption{Iterations}
+    \end{subfigure}
+    \caption{\emph{Contrasting} how to contrast by introducing grouping,
+      \emph{generalizing} by iterations example.}
+  \end{figure}
+\end{frame}
+
+% slides on grouping
