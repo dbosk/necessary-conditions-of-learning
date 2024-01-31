@@ -1,3 +1,7 @@
+---
+title: Preparation for seminar on variation theory
+---
+
 # Prerequisites
 
 The material is provided through FeedbackFruits to make them interactive. Just 
