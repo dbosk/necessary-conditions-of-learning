@@ -28,6 +28,12 @@
   \end{frame}
 }
 
+\AtBeginSubsection[]{%
+  \begin{frame}<beamer>
+    \tableofcontents[currentsection,currentsubsection]
+  \end{frame}
+}
+
 \ProvideDocumentEnvironment{assumption}{o}{%
   \IfValueTF{#1}{%
     \begin{block}{Assumption: #1}
@@ -97,8 +103,7 @@
 
 \begin{document}
 \title{%
-  Reflections on Necessary Conditions of Learning:
-  A Brief Summary of Variation Theory
+  Seminar: Variation Theory
 }
 \author{Daniel Bosk}
 \institute{%
