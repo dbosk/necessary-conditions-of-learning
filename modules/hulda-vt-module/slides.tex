@@ -24,13 +24,19 @@
 
 \AtBeginSection[]{%
   \begin{frame}<beamer>
-    \tableofcontents[currentsection]
+    \tableofcontents[currentsection,
+                     sectionstyle=show/shaded,
+                     subsectionstyle=show/show/hide,
+                     subsubsectionstyle=hide]
   \end{frame}
 }
 
 \AtBeginSubsection[]{%
   \begin{frame}<beamer>
-    \tableofcontents[currentsection,currentsubsection]
+    \tableofcontents[currentsection,
+                     sectionstyle=show/shaded,
+                     subsectionstyle=show/shaded/hide,
+                     subsubsectionstyle=hide]
   \end{frame}
 }
 
