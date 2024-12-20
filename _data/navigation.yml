@@ -39,7 +39,7 @@ modules:
     prev: ch5
     next: ch7
   ch7:
-    title: "Ch 7: Learnig to help others to learn"
+    title: "Ch 7: Learning to help others to learn"
     path: /modules/ch7/README
     prev: ch6
     next: cherry-picking
