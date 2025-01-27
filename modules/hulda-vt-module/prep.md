@@ -12,6 +12,7 @@ register an account (email address and password).
 - [Video: Ference Marton on Phenomenography and Variation Theory](https://eu.feedbackfruits.com/courses/activity-course/4f408f8b-7193-4e4a-8f02-838ee29e5535)
 - [Paper: The dimensions of variation in the teaching of data structures](https://eu.feedbackfruits.com/courses/activity-course/7a8ea8a4-19f3-4e94-b559-3a602d1ee926)
 - [Paper: Applications of variation theory in computing education](https://dl.acm.org/doi/10.5555/2449323.2449355)
+- A draft of a lesson plan.
 
 
 # Material for going in-depth
